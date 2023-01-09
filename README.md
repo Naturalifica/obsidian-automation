@@ -1,7 +1,9 @@
 # obsidian-automation
-A set of scripts to help with automating tasks around the Obsidian text editor
+实现了mac系统上每日自动向Obsidian中填写今日代办（数据从calendar📅和weather☁️中获取）
+> A set of scripts to help with automating tasks around the Obsidian text editor
+> 
 > 优雅，实在是太优雅了
-> 实现了mac系统上每日自动向Obsidian中填写今日代办（数据从calendar📅和weather☁️中获取）
+> 
 > 仅进行小小修改（原本就很优雅
 
 
