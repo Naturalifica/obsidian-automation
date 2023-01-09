@@ -1,5 +1,9 @@
 # obsidian-automation
 A set of scripts to help with automating tasks around the Obsidian text editor
+> 优雅，实在是太优雅了
+> 实现了mac系统上每日自动向Obsidian中填写今日代办（数据从calendar📅和weather☁️中获取）
+> 仅进行小小修改（原本就很优雅
+
 
 ## Daily Notes (obsidian-daily)
 This script generates a daily notes file in the format described in [this post](https://www.jamierubin.net/2021/02/08/automating-my-daily-notes-with-obsidian/). An example looks as follows:
@@ -15,3 +19,12 @@ Some configuration notes:
 
 # A note on support
 I'm posting this software as-is. It works for me, and a number of folks have requested it and I'm happy to put it here to share it. But I have no time to support it. If I make improvements, I'll try to post them, but there's no guarantee there either. I realize that this may not work perfectly on non-Mac systems, but the whole point of posting the code is to let folks see it, fork it, and roll your own from it. Hopefully it works for you the first time. If not, the code's there for you to mess with.
+
+
+
+
+
+
+
+
+> ical_buddy_cmd: icalBuddy -npc -iep "title,datetime" -b -\  -po "datetime,title" -ps "|: |" eventsToday
